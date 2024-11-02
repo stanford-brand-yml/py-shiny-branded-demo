@@ -1,0 +1,49 @@
+// Define base colors from Stanford brand exactly as in _brand.yml
+// Is there a better way? Maybe. But this is the most DRY way I could think of.
+$brand-colors: (
+  cardinal: #8C1515,
+  cardinal-dark: #820000,
+  cardinal-light: #B83A4B,
+  cool-grey: #4D4F53,
+  warm-grey: #3F3C30,
+  beige: #F4F4F4,
+  stone: #544948,
+  sky: #007C92,
+  fog: #DAD7CB,
+  redwood: #8D3C1E,
+  link-blue: #006CB8
+);
+
+// Generate color variations for each base color
+@function generate-color-scale($base-color) {
+  $colors: (
+    100: mix(white, $base-color, 80%),
+    200: mix(white, $base-color, 60%),
+    300: mix(white, $base-color, 40%),
+    400: mix(white, $base-color, 20%),
+    500: $base-color,
+    600: mix(black, $base-color, 20%),
+    700: mix(black, $base-color, 40%),
+    800: mix(black, $base-color, 60%),
+    900: mix(black, $base-color, 80%)
+  );
+  @return $colors;
+}
+
+// Color contrast function
+@function color-contrast($background) {
+  $lightness: lightness($background);
+  @return if($lightness > 60%, #2E2D29, #FFFFFF);
+}
+
+// Generate all color variations and contrast classes in one go
+@each $color-name, $base-color in $brand-colors {
+  $variations: generate-color-scale($base-color);
+  
+  @each $weight, $color in $variations {
+    .bd-#{$color-name}-#{$weight} {
+      color: color-contrast($color);
+      background-color: $color;
+    }
+  }
+}

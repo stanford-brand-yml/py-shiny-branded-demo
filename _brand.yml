@@ -1,0 +1,87 @@
+# Based on the Stanford University brand guidelines: https://identity.stanford.edu/
+# This file is used to define the brand colors, typography, and logo for the site / Shiny apps.
+
+# Important: 
+# Please note that is _not_ an official Stanford University product.
+
+meta:
+  name:
+    full: "Stanford University"
+    short: "Stanford"
+  link:
+    home: "https://www.stanford.edu"
+    facebook: "https://www.facebook.com/stanford"
+    twitter: "https://twitter.com/stanford"
+    linkedin: "https://www.linkedin.com/school/stanford-university"
+
+color:
+  palette:
+    cardinal: "#8C1515"  # Stanford Cardinal
+    cardinal-dark: "#820000"
+    cardinal-light: "#B83A4B"
+    cool-grey: "#4D4F53"
+    warm-grey: "#3F3C30"
+    beige: "#F4F4F4"
+    stone: "#544948"
+    sky: "#007C92"
+    fog: "#DAD7CB"
+    redwood: "#8D3C1E"
+    link-blue: "#006CB8"
+  
+  foreground: "#2E2D29"  # Dark charcoal for text
+  background: "#FFFFFF"  # White
+  primary: "#8C1515"     # Stanford Cardinal
+  secondary: "#4D4F53"   # Cool Grey
+  tertiary: "#DAD7CB"    # Fog
+  success: "#175E54"     # Dark green
+  info: "#007C92"        # Sky
+  warning: "#B1040E"     # Bright red
+  danger: "#820000"      # Dark cardinal
+  light: "#F4F4F4"      # Beige
+  dark: "#2E2D29"       # Dark charcoal
+
+typography:
+  fonts:
+    - source: bunny
+      family: "Source Sans Pro"
+      weight: [300, 400, 600, 700]
+      style: [normal, italic]
+    
+    - source: bunny
+      family: "Source Serif Pro"
+      weight: [400, 600, 700]
+      style: [normal]
+      
+    - source: system
+      family: "Menlo"  # For monospace
+  
+  base:
+    family: "Source Sans Pro"
+    size: "16px"
+    weight: 400
+    line-height: 1.5
+  
+  headings:
+    family: "Source Serif Pro"
+    weight: 600
+    line-height: 1.2
+  
+  monospace:
+    family: "Menlo, Monaco, Consolas, monospace"
+    size: "14px"
+    weight: 400
+  
+  link:
+    weight: 400
+    decoration: "underline"
+
+logo:
+  small:
+    light: "./assets/block-s.svg"
+    dark: "./assets/block-s-reversed.svg"
+  medium:
+    light: "./assets/wordmark.svg"
+    dark: "./assets/wordmark-reversed.svg"
+  large:
+    light: "./assets/signature.svg"
+    dark: "./assets/signature-reversed.svg"
