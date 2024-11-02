@@ -1,4 +1,5 @@
-# This file demonstrates the use of a Stanford brand.yml file to theme a Shiny for Python application.
+# This file demonstrates the use of a Stanford brand.yml file to theme a 
+# Shiny for Python application.
 
 # Modified from py-shiny/examples/brand/app.py
 # https://github.com/posit-dev/py-shiny/blob/415ced034e6c500adda524abb7579731c32088b5/examples/brand/app.py#L8
