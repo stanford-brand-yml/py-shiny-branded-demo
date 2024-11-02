@@ -29,6 +29,13 @@ The application is modified from the [Brands example](https://github.com/posit-d
 - [`libsass`](https://sass.github.io/libsass-python/) (not available in Shinylive/Pyodide, c.f. [py-shiny#1753](https://github.com/posit-dev/py-shiny/issues/1753))
 - Additional data science dependencies listed in [`requirements.txt`](requirements.txt), e.g. `matplotlib`, `numpy`.
 
+### Color Themes
+
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![Dark Mode](https://github.com/user-attachments/assets/ab90c349-f55f-4c91-94de-3662cf6bf66d) | ![Light Mode](https://github.com/user-attachments/assets/f392008b-afc6-423a-9004-9d4ba3b6030c
+) |
+
 ## Repository Structure
 
 The repository structure is as follows:
@@ -76,6 +83,8 @@ shiny run app.py
 ```
 
 The app will be available at http://localhost:8000
+
+<img width="2185" alt="Dark Mode with the Branded Shiny App inside of VS Code" src="https://github.com/user-attachments/assets/7f3ee902-8ef9-436d-97f5-255608a0dfa7">
 
 ### Deployment Note
 
