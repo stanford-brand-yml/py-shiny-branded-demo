@@ -1,8 +1,9 @@
-# Stanford Brand Demo - Shiny for Python
-
 > [!IMPORTANT]
 > 
 > This is **not** an official Stanford University project. This is part of a demonstration for STATS 290 regarding branding for Shiny applications.
+
+
+# Stanford Brand Demo - Shiny for Python
 
 This repository shows an implementation of [Stanford's identity guidelines][suidg] in a [Shiny for Python application][s4py] using the new [`brand.yml` specification][byml] and theming feature introduced in [Shiny for Python v1.2.0](https://github.com/posit-dev/py-shiny/releases/tag/v1.2.0).
 
@@ -33,8 +34,7 @@ The application is modified from the [Brands example](https://github.com/posit-d
 
 | Dark Mode | Light Mode |
 |-----------|------------|
-| ![Dark Mode](https://github.com/user-attachments/assets/ab90c349-f55f-4c91-94de-3662cf6bf66d) | ![Light Mode](https://github.com/user-attachments/assets/f392008b-afc6-423a-9004-9d4ba3b6030c
-) |
+| ![Dark Mode](https://github.com/user-attachments/assets/ab90c349-f55f-4c91-94de-3662cf6bf66d) | ![Light Mode](https://github.com/user-attachments/assets/f392008b-afc6-423a-9004-9d4ba3b6030c) |
 
 ## Repository Structure
 
