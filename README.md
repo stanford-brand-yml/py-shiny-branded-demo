@@ -57,7 +57,7 @@ The repository structure is as follows:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/stanford-brand-yml/brand-yml
+git clone git@github.com:stanford-brand-yml/py-shiny-branded-demo.git
 cd py-shiny-branded-demo
 ```
 
