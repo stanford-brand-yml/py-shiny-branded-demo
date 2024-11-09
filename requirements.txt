@@ -1,4 +1,5 @@
 https://pkg.garrickadenbuie.com/libsass-python/libsass-0.23.0-cp312-abi3-pyodide_2024_0_wasm32.whl
+pydantic
 brand_yml
 shiny[theme]
 matplotlib
