@@ -41,7 +41,6 @@ The application is modified from the [Brands example](https://github.com/posit-d
 
 The repository structure is as follows:
 
-
 - `_brand.yml`: Defines Stanford's brand colors, typography, and other visual elements following the [Stanford Identity Guide][suidg]
     - This file is used to configure the brand theming in the Shiny application
 - `_colors.scss`: Contains additional SCSS rules for color tinting and UI component styling
@@ -50,8 +49,10 @@ The repository structure is as follows:
 - `app.py`: A demo application showcasing the brand implementation in Shiny for Python
     - The application uses the `_brand.yml` file to configure the brand theming
     - It includes interactive visualizations and UI components styled with Stanford's brand colors
-- `requirements.txt`: Contains the Python dependencies required to run the application
-
+- `requirements.txt`: Contains the Python dependencies required to run the application on the **Shinylive playground** and **GitHub Pages**.
+- `requirements-dev.txt`: Contains the Python dependencies required to develop and run the application **locally**.
+- `requirements-ci.txt`: Contains the Python dependencies required for the **GitHub Actions** to convert and deploy the application. 
+- `.github/workflows/publish-py-shinylive-app.yml`: GitHub Actions workflow to convert and deploy the application to a GitHub Pages website.
 
 ## Installation
 
@@ -72,7 +73,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 ```
 
 ## Usage
@@ -91,6 +92,7 @@ The app will be available at http://localhost:8000
 
 The demo can be deploy to:
 
+- GitHub Pages (c.f. [Convert and Deploy Shiny for Python Tutorial](https://github.com/coatless-tutorials/convert-py-shiny-app-to-py-shinylive-app))
 - [Shinylive Playground][slpg]
 - [Shiny Server](https://posit.co/products/open-source/shiny-server/)
 - [Posit Connect](https://posit.co/products/enterprise/connect/)

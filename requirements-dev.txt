@@ -1,0 +1,6 @@
+wheel
+pandas
+brand_yml
+shiny[theme]
+shinyswatch
+shinylive
