@@ -82,7 +82,7 @@ typography:
 logo:
   small:
     light: "./assets/block-s.svg"
-    dark: "./assets/block-s-reversed.svg"
+    dark: "./assets/block-s.svg"
   medium:
     light: "./assets/wordmark.svg"
     dark: "./assets/wordmark-reversed.svg"
