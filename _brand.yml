@@ -16,7 +16,7 @@ meta:
 
 color:
   palette:
-    cardinal: "#8C1515"  # Stanford Cardinal
+    cardinal: "#8C1515"
     cardinal-dark: "#820000"
     cardinal-light: "#B83A4B"
     cool-grey: "#4D4F53"
@@ -27,18 +27,22 @@ color:
     fog: "#DAD7CB"
     redwood: "#8D3C1E"
     link-blue: "#006CB8"
+    white: "#FFFFFF"
+    palo-alto: "#175E54"
+    digital-red: "#B1040E"
+    process-black: "#2E2D29"
   
-  foreground: "#2E2D29"  # Dark charcoal for text
-  background: "#FFFFFF"  # White
-  primary: "#8C1515"     # Stanford Cardinal
-  secondary: "#4D4F53"   # Cool Grey
-  tertiary: "#DAD7CB"    # Fog
-  success: "#175E54"     # Dark green
-  info: "#007C92"        # Sky
-  warning: "#B1040E"     # Bright red
-  danger: "#820000"      # Dark cardinal
-  light: "#F4F4F4"      # Beige
-  dark: "#2E2D29"       # Dark charcoal
+  foreground: process-black
+  background: white
+  primary: cardinal
+  secondary: cool-grey
+  tertiary: fog
+  success: palo-alto
+  info: sky
+  warning: digital-red
+  danger: cardinal-dark  
+  light: beige
+  dark: process-black
 
 typography:
   fonts:
